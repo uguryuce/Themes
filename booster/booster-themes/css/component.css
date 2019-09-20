@@ -75,12 +75,27 @@
 	visibility: visible;
 }
 
-.menu__item {
+.menu__item_s {
 	display: block;
 	width: calc(100% - 50px);
 }
 
-.menu__link {
+
+#btn-3:hover{
+    background-color: white;
+    color: #424242;
+    border: 1px solid black;
+    
+}
+
+#btn-3{
+    background-color: black;
+    color: #999999;
+    border: 1px solid #555555;
+    transition: background .5s;
+}
+
+.menu__link_s {
 	font-weight: 600;
 	position: relative;
 	display: block;
@@ -302,6 +317,8 @@
 	border: none;
 	background: none;
 }
+
+
 
 .action:focus {
 	outline: none;
