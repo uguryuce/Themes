@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    <title>Form</title>
+    <meta name="description" content="Blueprint: A basic template for a responsive multi-level menu" />
+    <meta name="keywords" content="blueprint, template, html, css, menu, responsive, mobile-friendly" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- food icons -->
+    <link rel="stylesheet" type="text/css" href="css/organicfoodicons.css" />
+    <!-- demo styles -->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <!-- menu styles -->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr-custom.js"></script>
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <!-- Blueprint header -->
+        <header class="bp-header cf">
+            <div class="dummy-logo">
+                <div class="dummy-icon foodicon png">
+                    <img src="img/558x200-kopya.png">
+                </div>
+                <h2 class="dummy-heading">HeyBooster</h2>
+            </div>
+            <div class="bp-header__main">
+                <span class="bp-header__present">Hey Booster <span class="bp-tooltip bp-icon bp-icon--about" data-content="bilgi"></span></span>
+                <h1 class="bp-header__title">&nbsp;</h1>
+
+            </div>
+        </header>
+        <button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+        <nav id="ml-menu" class="menu">
+            <button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+            <div class="menu__wrap">
+                <ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
+                    <li class="menu__item_s"><a class="menu__link_s" href="index.html">Home</a></li>
+                    <li class="menu__item_s"><a class="menu__link_s" href="form.html">Form</a></li>
+                    <li class="menu__item_s"><a class="menu__link_s" href="giris.html">Login</a></li>
+
+                </ul>
+
+            </div>
+        </nav>
+        <div class="content content-1">
+
+            <div class="container-contact100-form-btn">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit minima quis numquam repellendus error maxime itaque, eum. Molestias vitae, quibusdam voluptates, quos nam minima doloremque nostrum facere at amet, architecto.</p>
+                <button class="contact100-form-btn google">
+                    <span>
+                        google ile Giriş Yap
+                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                    </span>
+                </button>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /view -->
+    <script src="js/classie.js"></script>
+    <script src="js/dummydata.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        (function() {
+            var menuEl = document.getElementById('ml-menu'),
+                mlmenu = new MLMenu(menuEl, {
+                    // breadcrumbsCtrl : true, // show breadcrumbs
+                    // initialBreadcrumb : 'all', // initial breadcrumb text
+                    backCtrl: false, // show back button
+                    // itemsDelayInterval : 60, // delay between each menu item sliding animation
+                    onItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+                });
+
+            // mobile menu toggle
+            var openMenuCtrl = document.querySelector('.action--open'),
+                closeMenuCtrl = document.querySelector('.action--close');
+
+            openMenuCtrl.addEventListener('click', openMenu);
+            closeMenuCtrl.addEventListener('click', closeMenu);
+
+            function openMenu() {
+                classie.add(menuEl, 'menu--open');
+                closeMenuCtrl.focus();
+            }
+
+            function closeMenu() {
+                classie.remove(menuEl, 'menu--open');
+                openMenuCtrl.focus();
+            }
+
+            // simulate grid content loading
+            var gridWrapper = document.querySelector('.content');
+
+            function loadDummyData(ev, itemName) {
+                ev.preventDefault();
+
+                closeMenu();
+                gridWrapper.innerHTML = '';
+                classie.add(gridWrapper, 'content--loading');
+                setTimeout(function() {
+                    classie.remove(gridWrapper, 'content--loading');
+                    gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+                }, 700);
+            }
+        })();
+
+    </script>
+</body>
+
+</html>
