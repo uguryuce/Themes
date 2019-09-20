@@ -18,6 +18,23 @@
     <!-- menu styles -->
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr-custom.js"></script>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+
+            $("#tikla").click(function(e) {
+                $("#formx").toggle("fast", "linear");
+            });
+
+        });
+
+    </script>
+    <style type="text/css">
+        #formx {
+            display: none;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -96,16 +113,69 @@
 
             </form>
 
-            <div class="" style="text-align: center;margin-top:5%">
-                <button class="icon-btn add-btn">
-                    <div class="add-icon"></div>
-                    <div class="btn-txt">Add</div>
-                </button>
-            </div>
+            <div class="" id="tikla" style="margin-top:5%; ">
+                <a href="#" style="color: black; text-align: center;"><button class="icon-btn add-btn">
+                        <div class="add-icon"></div>
+                        <div class="btn-txt">Add More</div>
 
+                    </button></a></div>
+
+                
+
+                <span id="formx">
+                    <form>
+                        <div class="connect-name">
+                            <label for="validationTooltip01">
+                                <h4>Connection Name</h4>
+                            </label>
+                            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Connection" required>
+                        </div>
+
+
+                        <div class="google-option">
+                            <h4>Google Analytics</h4>
+
+                            <h6>Property</h6>
+                            <select class="custom-select">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <h6>View</h6>
+                            <select class="custom-select">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                        </div>
+                        <div class="slack-option" id="slack">
+
+                            <h4>Slack</h4>
+                            <h6>Channel</h6>
+                            <select class="custom-select">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+
+                            <button class="btn btn-dark btnn mt-3" type="submit">Submit form</button>
+                        </div>
+
+                    </form>
+                    
+                </span>
+
+            </div>
         </div>
 
-    </div>
+    
+
+
     <!-- /view -->
     <script src="js/classie.js"></script>
     <script src="js/dummydata.js"></script>
