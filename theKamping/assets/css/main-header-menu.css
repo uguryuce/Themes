@@ -202,8 +202,9 @@
 
 .giris-kamp-card{
     height: 300px;
-    background-color: #f3f5f9;
-    border: 1px solid lightgray;
+    background-color: #f2f5f8;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
 }
 
 
