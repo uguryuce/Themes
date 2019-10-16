@@ -192,11 +192,56 @@
     object-fit: cover;
 }
 
+.giris-kamplar{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    padding-right: 50x;
+    padding-left: 50px;
+}
+
+.giris-kamp-card{
+    height: 300px;
+    background-color: #f3f5f9;
+    border: 1px solid lightgray;
+}
+
+.card-baslik {
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    opacity: 0.9;
+    font-family: sans-serif;
+    
+}
 
 
 
+.card-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 130px;
+    padding-top:1px;
+    
+}
 
+.card-duzenleyen{
+    font-weight: 300;
+    text-align: left;
+    padding-left:10px;
+    font-size: 16px;
+    opacity: 1;
+    font-family: sans-serif;
+}
 
+.card-duzenleyen-span{
+    font-weight: 300;
+    text-align: left;
+    font-size: 16px;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
 
 
 
