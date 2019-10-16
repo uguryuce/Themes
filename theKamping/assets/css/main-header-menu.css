@@ -206,6 +206,8 @@
     border: 1px solid lightgray;
 }
 
+
+
 .card-baslik {
     font-weight: 500;
     text-align: left;
@@ -230,7 +232,7 @@
     font-weight: 300;
     text-align: left;
     padding-left:10px;
-    font-size: 16px;
+    font-size: 14px;
     opacity: 1;
     font-family: sans-serif;
 }
@@ -238,10 +240,45 @@
 .card-duzenleyen-span{
     font-weight: 300;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     opacity: 0.9;
     font-family: sans-serif;
 }
+
+
+#yildiz{
+    font-size:20px;
+    padding: 10px;
+}
+
+
+#yildiz .yildiz-genel{
+    font-size: 18px;
+    margin-left: 5px;
+    
+}
+
+
+#yildiz i{
+    color: #f4c150;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

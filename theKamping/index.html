@@ -7,6 +7,64 @@
     <title>TheKamping</title>
     <link rel="stylesheet" href="assets/css/main-header-menu.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- yıldız puanlama -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+
+            var kontrol = 0; //kontrol değişkenimiz.tıklandıktan sonra renkler sıfırlanmasın diye
+
+
+
+            $("#yildiz i").mouseover(function() { //yıldızların üzerine mouse ile gelinirse
+
+                var index = $(this).index(); //üzerine gelinenin sayfadaki sırasını al.
+
+                $("#yildiz i").css("color", "#000") //tüm yıldızları siyah yap
+
+
+
+                for (i = index; i >= 0; i--) { //seçtiğimiz yıldız ve altındakileri döngüye alıyoruz.
+
+                    $("#yildiz i:eq(" + i + ")").css("color", "#f4c150"); //tek tek renklerini değiştiriyoruz.
+
+                }
+
+            })
+
+
+
+            $("#yildiz i").mouseout(function() { //yıldızların üzerinden mouse çekilirse
+
+                if (kontrol == 0) { //kontrol 0 ise
+
+                    $("#yildiz i").css("color", "#f4c150"); //hepsini siyah yap
+
+                }
+
+            })
+
+
+
+            $("#yildiz i").click(function() { //yıldıza tıklanırsa
+
+                var index = $(this).index() + 1; //seçilen yıldız sayısını buluyoruz.
+
+                kontrol = 1; //kontrolü 1 yapıyoruz
+
+                alert(index + " yıldız verdiniz."); //yıldız sayısını ekrana bastırıyoruz.
+
+            })
+
+        })
+    </script>
+    
+    <!-- yıldız puanlama bitiş -->
+
 </head>
 
 <body>
@@ -107,7 +165,26 @@
                     <img src="img/card-photo/a1.jpeg">
                 </div>
                 <h3 class="card-baslik">Kartepe Turu</h3>
-                <h6  class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>Uğur Yüce</h6>
+                <h6 class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>Uğur Yüce</h6>
+                
+                <!-- yıldız puanlama -->
+                <div id="yildiz">
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+                    
+                    <span class="yildiz-genel">(4,3)</span>
+
+                </div>
+                
+                <!-- yıldız puanlama bitiş -->
 
             </div>
         </div>
@@ -117,7 +194,25 @@
                     <img src="img/card-photo/a2.jpeg">
                 </div>
                 <h3 class="card-baslik">Ayder Yaylası Kampı</h3>
-                <h6  class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>Selamet Şamlı</h6>
+                <h6 class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>Selamet Şamlı</h6>
+                <!-- yıldız puanlama -->
+                <div id="yildiz">
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+                    
+                    <span class="yildiz-genel">(4,3)</span>
+
+                </div>
+                
+                <!-- yıldız puanlama bitiş -->
 
             </div>
         </div>
@@ -127,8 +222,26 @@
                     <img src="img/card-photo/a3.jpeg">
                 </div>
                 <h3 class="card-baslik">Palandöken Kampı</h3>
-                <h6  class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>İlteriş Keskin</h6>
+                <h6 class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>İlteriş Keskin</h6>
+                <!-- yıldız puanlama -->
+                <div id="yildiz">
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+                    
+                    <span class="yildiz-genel">(4,3)</span>
+
+                </div>
                 
+                <!-- yıldız puanlama bitiş -->
+
 
             </div>
         </div>
@@ -139,6 +252,24 @@
                 </div>
                 <h3 class="card-baslik">Kartalkaya Kış Kampı</h3>
                 <h6 class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>Taner Tolga Tarlacı</h6>
+                <!-- yıldız puanlama -->
+                <div id="yildiz">
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star"></i>
+                    
+                    <span class="yildiz-genel">(4,3)</span>
+
+                </div>
+                
+                <!-- yıldız puanlama bitiş -->
 
             </div>
         </div>
