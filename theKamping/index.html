@@ -20,6 +20,56 @@
 
 
 
+            $("#yildiz3 i").mouseover(function() { //yıldızların üzerine mouse ile gelinirse
+
+                var index = $(this).index(); //üzerine gelinenin sayfadaki sırasını al.
+
+                $("#yildiz3 i").css("color", "#000") //tüm yıldızları siyah yap
+
+
+
+                for (i = index; i >= 0; i--) { //seçtiğimiz yıldız ve altındakileri döngüye alıyoruz.
+
+                    $("#yildiz3 i:eq(" + i + ")").css("color", "#f4c150"); //tek tek renklerini değiştiriyoruz.
+
+                }
+
+            })
+
+
+
+            $("#yildiz3 i").mouseout(function() { //yıldızların üzerinden mouse çekilirse
+
+                if (kontrol == 0) { //kontrol 0 ise
+
+                    $("#yildiz i").css("color", "#f4c150"); //hepsini siyah yap
+
+                }
+
+            })
+
+
+
+            $("#yildiz3 i").click(function() { //yıldıza tıklanırsa
+
+                var index = $(this).index() + 1; //seçilen yıldız sayısını buluyoruz.
+
+                kontrol = 1; //kontrolü 1 yapıyoruz
+
+                alert(index + " yıldız verdiniz."); //yıldız sayısını ekrana bastırıyoruz.
+
+            })
+
+        })
+        
+        //--------------------
+        
+        $(function() {
+
+            var kontrol = 0; //kontrol değişkenimiz.tıklandıktan sonra renkler sıfırlanmasın diye
+
+
+
             $("#yildiz i").mouseover(function() { //yıldızların üzerine mouse ile gelinirse
 
                 var index = $(this).index(); //üzerine gelinenin sayfadaki sırasını al.
@@ -51,6 +101,103 @@
 
 
             $("#yildiz i").click(function() { //yıldıza tıklanırsa
+
+                var index = $(this).index() + 1; //seçilen yıldız sayısını buluyoruz.
+
+                kontrol = 1; //kontrolü 1 yapıyoruz
+
+                alert(index + " yıldız verdiniz."); //yıldız sayısını ekrana bastırıyoruz.
+
+            })
+
+        })
+        //-----------------------
+        
+        $(function() {
+
+            var kontrol = 0; //kontrol değişkenimiz.tıklandıktan sonra renkler sıfırlanmasın diye
+
+
+
+            $("#yildiz2 i").mouseover(function() { //yıldızların üzerine mouse ile gelinirse
+
+                var index = $(this).index(); //üzerine gelinenin sayfadaki sırasını al.
+
+                $("#yildiz2 i").css("color", "#000") //tüm yıldızları siyah yap
+
+
+
+                for (i = index; i >= 0; i--) { //seçtiğimiz yıldız ve altındakileri döngüye alıyoruz.
+
+                    $("#yildiz2 i:eq(" + i + ")").css("color", "#f4c150"); //tek tek renklerini değiştiriyoruz.
+
+                }
+
+            })
+
+
+
+            $("#yildiz2 i").mouseout(function() { //yıldızların üzerinden mouse çekilirse
+
+                if (kontrol == 0) { //kontrol 0 ise
+
+                    $("#yildiz2 i").css("color", "#f4c150"); //hepsini siyah yap
+
+                }
+
+            })
+
+
+
+            $("#yildiz2 i").click(function() { //yıldıza tıklanırsa
+
+                var index = $(this).index() + 1; //seçilen yıldız sayısını buluyoruz.
+
+                kontrol = 1; //kontrolü 1 yapıyoruz
+
+                alert(index + " yıldız verdiniz."); //yıldız sayısını ekrana bastırıyoruz.
+
+            })
+
+        })
+        //-------------------------
+        $(function() {
+
+            var kontrol = 0; //kontrol değişkenimiz.tıklandıktan sonra renkler sıfırlanmasın diye
+
+
+
+            $("#yildiz4 i").mouseover(function() { //yıldızların üzerine mouse ile gelinirse
+
+                var index = $(this).index(); //üzerine gelinenin sayfadaki sırasını al.
+
+                $("#yildiz4 i").css("color", "#000") //tüm yıldızları siyah yap
+
+
+
+                for (i = index; i >= 0; i--) { //seçtiğimiz yıldız ve altındakileri döngüye alıyoruz.
+
+                    $("#yildiz4 i:eq(" + i + ")").css("color", "#f4c150"); //tek tek renklerini değiştiriyoruz.
+
+                }
+
+            })
+
+
+
+            $("#yildiz4 i").mouseout(function() { //yıldızların üzerinden mouse çekilirse
+
+                if (kontrol == 0) { //kontrol 0 ise
+
+                    $("#yildiz4 i").css("color", "#f4c150"); //hepsini siyah yap
+
+                }
+
+            })
+
+
+
+            $("#yildiz4 i").click(function() { //yıldıza tıklanırsa
 
                 var index = $(this).index() + 1; //seçilen yıldız sayısını buluyoruz.
 
@@ -185,6 +332,7 @@
                 </div>
                 
                 <!-- yıldız puanlama bitiş -->
+                <button type="button" class=" detay-btn btn btn-primary btn-sm"><a class="detay-btn-text">Detay için tıkla</a></button>
 
             </div>
         </div>
@@ -196,7 +344,7 @@
                 <h3 class="card-baslik">Ayder Yaylası Kampı</h3>
                 <h6 class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>Selamet Şamlı</h6>
                 <!-- yıldız puanlama -->
-                <div id="yildiz">
+                <div id="yildiz2">
 
                     <i class="fa fa-star"></i>
 
@@ -208,11 +356,12 @@
 
                     <i class="fa fa-star"></i>
                     
-                    <span class="yildiz-genel">(4,3)</span>
+                    <span class="yildiz-genel">(3,9)</span>
 
                 </div>
                 
                 <!-- yıldız puanlama bitiş -->
+                <button type="button" class=" detay-btn btn btn-primary btn-sm"><a class="detay-btn-text">Detay için tıkla</a></button>
 
             </div>
         </div>
@@ -224,7 +373,7 @@
                 <h3 class="card-baslik">Palandöken Kampı</h3>
                 <h6 class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>İlteriş Keskin</h6>
                 <!-- yıldız puanlama -->
-                <div id="yildiz">
+                <div id="yildiz3">
 
                     <i class="fa fa-star"></i>
 
@@ -236,11 +385,13 @@
 
                     <i class="fa fa-star"></i>
                     
-                    <span class="yildiz-genel">(4,3)</span>
+                    <span class="yildiz-genel">(3,1)</span>
 
                 </div>
                 
                 <!-- yıldız puanlama bitiş -->
+                
+                <button type="button" class=" detay-btn btn btn-primary btn-sm"><a class="detay-btn-text">Detay için tıkla</a></button>
 
 
             </div>
@@ -253,7 +404,7 @@
                 <h3 class="card-baslik">Kartalkaya Kış Kampı</h3>
                 <h6 class="card-duzenleyen"><span class="card-duzenleyen-span">Düzenleyen : </span>Taner Tolga Tarlacı</h6>
                 <!-- yıldız puanlama -->
-                <div id="yildiz">
+                <div id="yildiz4">
 
                     <i class="fa fa-star"></i>
 
@@ -265,11 +416,12 @@
 
                     <i class="fa fa-star"></i>
                     
-                    <span class="yildiz-genel">(4,3)</span>
+                    <span class="yildiz-genel">(4,0)</span>
 
                 </div>
                 
                 <!-- yıldız puanlama bitiş -->
+                <button type="button" class=" detay-btn btn btn-primary btn-sm"><a class="detay-btn-text">Detay için tıkla</a></button>
 
             </div>
         </div>

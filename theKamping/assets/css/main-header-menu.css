@@ -263,12 +263,71 @@
     color: #f4c150;
 }
 
+/*----------------------- */
+
+#yildiz2{
+    font-size:20px;
+    padding: 10px;
+}
 
 
+#yildiz2 .yildiz-genel{
+    font-size: 18px;
+    margin-left: 5px;
+    
+}
 
 
+#yildiz2 i{
+    color: #f4c150;
+}
+
+/*----------------------- */
+#yildiz3{
+    font-size:20px;
+    padding: 10px;
+}
 
 
+#yildiz3 .yildiz-genel{
+    font-size: 18px;
+    margin-left: 5px;
+    
+}
+
+
+#yildiz3 i{
+    color: #f4c150;
+}
+
+/*----------------------- */
+#yildiz4{
+    font-size:20px;
+    padding: 10px;
+}
+
+
+#yildiz4 .yildiz-genel{
+    font-size: 18px;
+    margin-left: 5px;
+    
+}
+
+
+#yildiz4 i{
+    color: #f4c150;
+}
+
+/*----------------------- */
+
+
+.detay-btn{
+    margin-left: 10px;
+}
+
+.detay-btn-text{
+    font-size: 14px;
+}
 
 
 
