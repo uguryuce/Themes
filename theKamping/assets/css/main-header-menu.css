@@ -378,7 +378,7 @@ body {
 
 #portfoy {
     background-color: rgba(17,30,48);
-    margin-top: 100px;
+    margin-top: 200px;
     padding-left: 10px;
     padding-right: 10px;
     
@@ -481,8 +481,38 @@ body {
     background-color: #dd4c4f;
 }
 
+.en-popi-h1{
+    display: block;
+    width: 100%;
+    float: left;
+}
 
+.popi-kamp{
 
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.en-popi-h1-2{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+
+.popi-kamp-2{
+
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 
 
