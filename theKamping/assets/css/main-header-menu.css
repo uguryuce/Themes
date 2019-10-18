@@ -377,8 +377,11 @@ body {
 
 
 #portfoy {
+    background-color: rgba(17,30,48);
     margin-top: 100px;
-    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    
     
 
 }
@@ -387,29 +390,14 @@ body {
     float: left;
     width: 50%;
     padding: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
-    background-image:
-        linear-gradient(to left bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
-         url(../../img/ab1.png);
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgba(17,30,48,0.9);
     object-fit: cover;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.card-card-2{
-    float: left;
-    width: 50%;
-    padding: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
-    background-image:
-        linear-gradient(to left bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
-         url(../../img/ab1-ters.png);
-    object-fit: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
 
 
@@ -417,24 +405,21 @@ body {
     height: 300px;
     background-color: #fff;
     border: 1px solid #f1f1f1;
-    border-radius: 2px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3);
-    transition: 0.3s;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 20px;
 }
 
 .port-items:hover{
-    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.4);
+        
 }
 
 .port-items h1{
     margin: 10px;
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 28px;
     font-family: sans-serif;
-    font-weight: 100;
-    color: #007bff;
+    font-weight: 400;
+    color: rgba(15,39,68);
     display: inline;
     float: left;
 }
@@ -446,14 +431,15 @@ body {
     display: block;
     float: left;
     opacity: 0.8;
-    font-size: 16px;
+    font-size: 18px;
+    color: rgba(15,39,68,0.9);
 }
 
 .port-items i{
     margin: 10px;
     padding-left: 10px;
     font-size: 30px;
-    color: #f4c150;
+    color: rgba(15,39,68,0.9);
     display: inline;
     float: left;
 }
@@ -484,11 +470,16 @@ body {
 }
 
 #btn-katil{
-    background-color: #dd4c4f;
+    background-color: #0f2744;
+    opacity: 0.9;
     color: white;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-
+#hadi-basla-btn{
+    background-color: #dd4c4f;
+}
 
 
 
