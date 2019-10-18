@@ -368,7 +368,9 @@ body {
     padding: 10px;
     padding-right: 50px;
     padding-left: 50px;
-    background-image: url(../../img/ab1.png);
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+         url(../../img/ab1.png);
     object-fit: cover;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -380,7 +382,9 @@ body {
     padding: 10px;
     padding-right: 50px;
     padding-left: 50px;
-    background-image: url(../../img/ab1-ters.png);
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+         url(../../img/ab1-ters.png);
     object-fit: cover;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -393,14 +397,14 @@ body {
     background-color: #fff;
     border: 1px solid #f1f1f1;
     border-radius: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3);
     transition: 0.3s;
     border-radius: 5px;
     padding: 20px;
 }
 
 .port-items:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.4);
 }
 
 .port-items h1{
@@ -438,11 +442,20 @@ body {
     margin: 20px;
     background-color: #dd4c4f;
     color: white;
+    opacity: 0.9;
 }
 
 
+.alt-div{
+    border: 1px solid #f9f9f9;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
 
 
+.alt-div:hover{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.3);
+}
 
 
 
