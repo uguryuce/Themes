@@ -1,3 +1,22 @@
+/*
+1.renk : #E64A19
+2.renk : #FFCCBC
+3.renk : #FF5722
+4.renk : #FFFFFF
+
+1.renk : #9E9E9E
+2.renk : #212121
+3.renk : #757575
+4.renk : #BDBDBD
+
+
+
+
+#111e30
+#dd4c4f
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -229,7 +248,7 @@ body {
 }
 
 .giris-kamp-card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.4);
 }
 
 
@@ -348,10 +367,12 @@ body {
 
 .detay-btn {
     margin-left: 10px;
+    
 }
 
 .detay-btn-text {
     font-size: 14px;
+    color: white;
 }
 
 
@@ -369,7 +390,7 @@ body {
     padding-right: 50px;
     padding-left: 50px;
     background-image:
-        linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        linear-gradient(to left bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
          url(../../img/ab1.png);
     object-fit: cover;
     padding-top: 50px;
@@ -383,7 +404,7 @@ body {
     padding-right: 50px;
     padding-left: 50px;
     background-image:
-        linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        linear-gradient(to left bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
          url(../../img/ab1-ters.png);
     object-fit: cover;
     padding-top: 50px;
@@ -425,6 +446,7 @@ body {
     display: block;
     float: left;
     opacity: 0.8;
+    font-size: 16px;
 }
 
 .port-items i{
@@ -443,21 +465,28 @@ body {
     background-color: #dd4c4f;
     color: white;
     opacity: 0.9;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
 }
 
 
 .alt-div{
     border: 1px solid #f9f9f9;
-    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
 
 
 .alt-div:hover{
-    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
 }
 
-
+#btn-katil{
+    background-color: #dd4c4f;
+    color: white;
+}
 
 
 
