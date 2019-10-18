@@ -368,7 +368,20 @@ body {
     padding: 10px;
     padding-right: 50px;
     padding-left: 50px;
-    background-color: #f2f5f8;
+    background-image: url(../../img/ab1.png);
+    object-fit: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-card-2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url(../../img/ab1-ters.png);
+    object-fit: cover;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -382,6 +395,8 @@ body {
     border-radius: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .port-items:hover{
@@ -395,12 +410,17 @@ body {
     font-family: sans-serif;
     font-weight: 100;
     color: #007bff;
+    display: inline;
+    float: left;
 }
 
 .port-items p{
     margin: 10px;
     padding-left: 10px;
     font-weight: 200;
+    display: block;
+    float: left;
+    opacity: 0.8;
 }
 
 .port-items i{
@@ -408,9 +428,17 @@ body {
     padding-left: 10px;
     font-size: 30px;
     color: #f4c150;
+    display: inline;
+    float: left;
 }
 
-
+.port-items button{
+    display: block;
+    float: left;
+    margin: 20px;
+    background-color: #dd4c4f;
+    color: white;
+}
 
 
 
