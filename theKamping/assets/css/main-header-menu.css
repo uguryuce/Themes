@@ -444,6 +444,7 @@ body {
 }
 
 .port-items i {
+    margin-bottom: 10px;
     margin-left: 10px;
     padding-left: 10px;
     font-size: 50px;
@@ -456,10 +457,10 @@ body {
 
 .port-items button {
     display: block;
-    float: left;
-    margin-left: 20px;
-    
-    background-color: #dd4c4f;
+    float: right;
+    margin-left: 0px;
+    text-decoration-line: underline;
+    background-color: transparent;
     color: white;
     opacity: 0.9;
     font-size: 16px;
