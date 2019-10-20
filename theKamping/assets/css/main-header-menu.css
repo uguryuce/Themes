@@ -410,15 +410,15 @@ body {
 
 .port-items {
     height: 300px;
-    background-color:#03316d;
+    background-color:#244572;
+    border: 1px solid #f1f1f1;
     border-radius: 5px;
     padding: 20px;
-    
 }
 
 
 .port-items:hover {
-     
+    
 }
 
 .port-items h1 {
