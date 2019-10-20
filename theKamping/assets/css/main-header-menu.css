@@ -222,11 +222,13 @@ body {
 
 
 .giris-slider {
-    margin-top: 65px
+    margin-top: 65px;
+    height: 65vh;
 }
 
+
 .carousel-item img {
-    height: 350px;
+    height: 65vh;
     object-fit: cover;
 }
 
@@ -247,8 +249,8 @@ body {
     transition: 0.3s;
 }
 
-.giris-kamp-card:hover{
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.4);
+.giris-kamp-card:hover {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
 }
 
 
@@ -367,7 +369,7 @@ body {
 
 .detay-btn {
     margin-left: 10px;
-    
+
 }
 
 .detay-btn-text {
@@ -377,23 +379,20 @@ body {
 
 
 #portfoy {
-    background-color: rgba(17,30,48);
+    background-color: #fff;
     margin-top: 200px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 200px;
-    
-    
-
+    margin-bottom: 0px;
 }
 
-.card-card{
+.card-card {
     float: left;
     width: 50%;
     padding: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: rgba(17,30,48,0.9);
+    background-color: #fff;
     object-fit: cover;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -402,30 +401,29 @@ body {
 
 
 
-.port-items{
+.port-items {
     height: 300px;
-    background-color: #fff;
+    background-color: rgba(17, 30, 48);;
     border: 1px solid #f1f1f1;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 20px;
 }
 
-.port-items:hover{
-        
-}
 
-.port-items h1{
+.port-items:hover {}
+
+.port-items h1 {
     margin: 10px;
     padding-left: 10px;
     font-size: 28px;
     font-family: sans-serif;
     font-weight: 400;
-    color: rgba(15,39,68);
+    color: #f2f5f8;
     display: inline;
     float: left;
 }
 
-.port-items p{
+.port-items p {
     margin: 10px;
     padding-left: 10px;
     font-weight: 200;
@@ -433,19 +431,19 @@ body {
     float: left;
     opacity: 0.8;
     font-size: 18px;
-    color: rgba(15,39,68,0.9);
+    color: #f2f5f8;
 }
 
-.port-items i{
+.port-items i {
     margin: 10px;
     padding-left: 10px;
     font-size: 30px;
-    color: rgba(15,39,68,0.9);
+    color: #f2f5f8;
     display: inline;
     float: left;
 }
 
-.port-items button{
+.port-items button {
     display: block;
     float: left;
     margin: 20px;
@@ -455,22 +453,22 @@ body {
     font-size: 16px;
     padding-right: 20px;
     padding-left: 20px;
-    
+
 }
 
 
-.alt-div{
+.alt-div {
     border: 1px solid #f9f9f9;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
 
 
-.alt-div:hover{
+.alt-div:hover {
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
 }
 
-#btn-katil{
+#btn-katil {
     background-color: #0f2744;
     opacity: 0.9;
     color: white;
@@ -478,44 +476,251 @@ body {
     padding-left: 20px;
 }
 
-#hadi-basla-btn{
-    background-color: #dd4c4f;
+#hadi-basla-btn {
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid #f2f5f8;
 }
 
-.en-popi-h1{
+
+.en-popi-h1 {
     display: block;
     width: 100%;
     float: left;
 }
 
-.popi-kamp{
+.popi-kamp {
+    color: #263c56;
 
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 300;
     font-family: sans-serif;
     margin-left: 40px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.en-popi-h1-2{
+.en-popi-h1-2 {
     display: block;
     width: 100%;
     float: left;
     margin-top: 100px;
 }
 
-.popi-kamp-2{
+.popi-kamp-2 {
+    color: #263c56;
 
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 300;
     font-family: sans-serif;
     margin-left: 40px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
+.category {
+    margin-bottom: 100px;
+}
+
+
+.category-card {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.category-card-card-1 {
+
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../../img/cd1.jpeg);
+
+}
+
+.category-card-card-2 {
+
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../../img/cd2.jpeg);
+
+}
+
+.category-card-card-3 {
+
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../../img/cd3.jpeg);
+
+}
+
+.category-card-card-4 {
+
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../../img/cd4.jpeg);
+
+}
+
+.ctg-card {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.ctg-card:hover {
+    transform: scale(1.1);
+
+}
+
+
+.category-card h1 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200px;
+    font-family: sans-serif;
+    opacity: 0.9;
+}
 
 
 
+.en-popi-h1-3 {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
 
+.popi-kamp-3 {
+    
+    color: #263c56;
+
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+/*  ---------- FOOTER ---------*/
+
+footer {
+    color: #fff;
+    background-attachment: fixed;
+    background-color: #222;
+    background-image: url(https://s7.postimg.org/uyf0oioaz/footer-bg.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+footer p {
+    color: #ccc;
+}
+
+footer a {
+    color: #ccc;
+}
+
+.social-pet li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-pet li a {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+    background-color: #3a5a95;
+    color: #fff;
+}
+
+.social-pet li:nth-child(2) a {
+    background-color: #57aced;
+}
+
+.social-pet li:nth-child(3) a {
+    background-color: #dd4f43;
+}
+
+.social-pet li:nth-child(4) a {
+    background-color: #6b27b2;
+}
+
+.social-pet li a:hover {
+    background-color: #0141a2;
+}
+
+.social-pet li a:hover i {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.recent-post li {
+    display: block;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.recent-post li label {
+    float: left;
+    border: 2px solid #ccc;
+    padding: 1px 7px;
+    text-align: center;
+}
+
+.recent-post li label span {
+    color: #fff;
+}
+
+footer .input-group-addon {
+    background-color: #0141a2;
+    padding: 10px;
+}
+
+.f-address li {
+    display: inline-block;
+}
+
+.f-address li i {
+    color: #2995de;
+    font-size: 18px;
+}
+
+.f-address li a {
+    color: #ccc;
+}
+
+/*=-Copyright-=*/
+.copyright {
+    background-color: #111;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.span-renk{
+    color: #dd4c4f;
+}
+
+
+.slider-h5{
+    font-weight: 100;
+    font-size: 45px;
+}
+
+
+.slider-p{
+    font-weight: 100;
+    font-size: 22px;
+}
