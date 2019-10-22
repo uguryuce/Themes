@@ -458,19 +458,19 @@ body {
 .port-items p {
     margin-left:10px;
     padding-left: 10px;
-    font-weight: 200;
+    font-weight: 300;
     display: inline-block;
     float: left;
     width: 60%;
     font-size: 18px;
-    color: #f2f5f8;
+    color: #fff;
 }
 
 .port-items i {
     margin-bottom: 10px;
     margin-left: 10px;
     padding-left: 10px;
-    font-size: 100px;
+    font-size: 70px;
     color: #45A0C3;
     display: inline-block;
   width: 20%;
@@ -479,15 +479,15 @@ body {
 }
 
 .port-items button {
-    display: block;
-    float: right;
-    margin-left: 0px;
+    display: inline-block;
+    
+    float: left;
+    margin-left: -15px;
     text-decoration-line: underline;
     background-color: transparent;
     color: #45A0C3;
     font-size: 16px;
-    padding-right: 20px;
-    padding-left: 20px;
+   
 
 }
 
@@ -571,9 +571,13 @@ body {
     margin-bottom: 10px;
 }
 .category {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    margin-top: 100px;
 }
 
+.a11{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
 
 .category-card {
     float: left;
