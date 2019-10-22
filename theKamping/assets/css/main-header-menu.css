@@ -262,6 +262,11 @@ body {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
+#resim{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 .card-baslik {
     font-weight: 600;
