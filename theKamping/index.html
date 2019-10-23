@@ -10,6 +10,22 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:200,300,400&display=swap" rel="stylesheet">
 
+
+
+
+
+
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
+
+
+
+
+
     <!-- yıldız puanlama -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -216,21 +232,20 @@
 
 </head>
 
-<body>
+<body style="background-color: #f8f8f8;">
 
 
-
-    <!-- COPY \/ -->
+    <!--
+    
     <header class="main-header fixed-top">
         <div class="container">
-            <a class="logo">LOGO</a>
+            <a class="logo">TK</a>
             <nav class="main-header-menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+
+
                 </ul>
             </nav>
             <button class="main-header-side-menu-button" onclick="toggleSideMenu(1)">
@@ -253,8 +268,12 @@
         </div>
         <div class="side-menu-close-div"></div>
     </nav>
-    <!-- COPY /\ -->
 
+
+
+
+    -->
+    <!--
     <section class="giris-slider">
         <div id="slider3" class="carousel slide carousel-fade mt-5" data-ride="carousel">
 
@@ -268,7 +287,9 @@
 
                 <div class="carousel-item active">
 
-                    <img src="img/cd2.jpeg" class="d-block w-100" alt="">
+
+
+                    <img src="img/ab3.jpeg" class="d-block w-100" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="slider-h5">The Kamping</h5>
                         <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, unde.</p>
@@ -280,7 +301,7 @@
                             </div>
 
                         </form>
-                        
+
                         <button id="hadi-basla-btn" type="button" class="btn px-4 py-1 m-3">Hadi başlayalım</button>
                     </div>
                 </div>
@@ -330,6 +351,64 @@
         </div>
     </section>
 
+    -->
+
+    <div class="container">
+        <ul id="gn-menu" class="gn-menu-main">
+            <li class="gn-trigger">
+                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                <nav class="gn-menu-wrapper">
+                    <div class="gn-scroller">
+                        <ul class="gn-menu">
+                            <li class="gn-search-item">
+                                <input placeholder="Search" type="search" class="gn-search">
+                                <a class="gn-icon gn-icon-search"><span>Search</span></a>
+                            </li>
+                            <li>
+                                <a class="gn-icon gn-icon-download">Downloads</a>
+                                <ul class="gn-submenu">
+                                    <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
+                                    <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="gn-icon gn-icon-cog">Settings</a></li>
+                            <li><a class="gn-icon gn-icon-help">Help</a></li>
+                            <li>
+                                <a class="gn-icon gn-icon-archive">Archives</a>
+                                <ul class="gn-submenu">
+                                    <li><a class="gn-icon gn-icon-article">Articles</a></li>
+                                    <li><a class="gn-icon gn-icon-pictures">Images</a></li>
+                                    <li><a class="gn-icon gn-icon-videos">Videos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /gn-scroller -->
+                </nav>
+            </li>
+            <li><a href="http://tympanus.net/codrops">Codrops</a></li>
+            <li><a class="codrops-icon codrops-icon-prev"><span>Previous Demo</span></a></li>
+            <li><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16030"><span>Back to the Codrops Article</span></a></li>
+        </ul>
+
+    </div><!-- /container -->
+
+    <script src="js/classie.js"></script>
+    <script src="js/gnmenu.js"></script>
+    <script>
+        new gnMenu(document.getElementById('gn-menu'));
+    </script>
+
+
+
+    <section class="start-kamp">
+        <h1 class="start-h1">The Kamping</h1>
+        <p class="start-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ut.</p>
+
+        
+
+
+    </section>
+
     <div class="en-popi-h1">
         <h1 class="popi-kamp clearfix"><span class="span-renk">en popüler</span> kamplar</h1>
     </div>
@@ -367,8 +446,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
@@ -406,8 +485,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
@@ -445,8 +524,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
@@ -486,8 +565,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
                 -->
@@ -498,13 +577,13 @@
 
 
 
-    
+
 
 
     <section id="portfoy" class="clearfix">
-       <div class="en-popi-h1-2">
-        <h1 class="popi-kamp-2 clearfix">Thecamping Hakkında</h1>
-    </div>
+        <div class="en-popi-h1-2">
+            <h1 class="popi-kamp-2 clearfix">Thecamping Hakkında</h1>
+        </div>
         <div class="card-card">
             <div class="port-items">
 
@@ -513,8 +592,8 @@
                 <h1>thecamping nedir</h1>
 
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
-                <button type="button" class="btn btn-lg">Lorem ipsum dolor.</button></p>
-                
+                    <button type="button" class="btn btn-lg">Lorem ipsum dolor.</button></p>
+
 
             </div>
         </div>
@@ -526,9 +605,9 @@
                 <h1>thecamping'e katıl</h1>
 
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor
-                <button type="button" class="btn btn-lg">Lorem ipsum dolor.</button>
+                    <button type="button" class="btn btn-lg">Lorem ipsum dolor.</button>
                 </p>
-                
+
 
             </div>
         </div>
@@ -563,11 +642,11 @@
             </div>
         </div>
     </section>
-    
+
     <div class="en-popi-h1" style="background-color: #222222;">
         <h1 class="popi-kamp clearfix" style="background-color: #222222; color: white; font-weight: 200;">daha fazla kamplar</h1>
     </div>
-    
+
     <section class="clearfix en-popi-div" style="background-color: #222222">
 
 
@@ -601,8 +680,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
@@ -640,8 +719,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
@@ -679,8 +758,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
@@ -720,8 +799,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
                 -->
@@ -729,9 +808,9 @@
             </div>
         </div>
     </section>
-    
-    
-    
+
+
+
     <section class="clearfix en-popi-div a11" style="background-color: #222222">
 
 
@@ -765,8 +844,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
@@ -804,8 +883,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
@@ -843,8 +922,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
@@ -884,8 +963,8 @@
                 </div>
 
                  yıldız puanlama bitiş -->
-                 
-                 <!--
+
+                <!--
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
                 -->

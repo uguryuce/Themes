@@ -53,7 +53,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: var(--main-header-primary-color);
+    background:black;
     height: 70px;
     font-family: var(--main-header-font-family);
     box-shadow: 0 0 10px var(--main-header-shadow-color);
@@ -84,8 +84,9 @@ body {
 }
 
 .main-header-menu ul {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    margin-left: 50%;
+    justify-content:center;
     height: 100%;
     width: 100%;
     list-style-type: none;
@@ -115,10 +116,10 @@ body {
 }
 
 .main-header .container a.logo {
-    color: white;
+    color: #f8f8f8;
     font-size: 30px;
     font-weight: 100;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 /* SIDE MENU */
@@ -222,13 +223,13 @@ body {
 
 
 .giris-slider {
-    margin-top: 65px;
-    height: 65vh;
+    margin-top: 60px;
+    height: 55vh;
 }
 
 
 .carousel-item img {
-    height: 65vh;
+    height: 55vh;
     object-fit: cover;
 }
 
@@ -834,3 +835,71 @@ footer .input-group-addon {
 #kelime-arayin::-webkit-input-placeholder {
   color: lightgray;
 }
+
+
+.start-kamp{
+    margin-top: 50px;
+    height: 65vh;
+    background-image:
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../../img/sli4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.start-h1{
+    font-size: 60px;
+    text-align-last: center;
+    font-weight: 200;
+    letter-spacing: 5px;
+    position: relative;
+    top: 40%;
+    color: white;
+    opacity:0.9;
+}
+
+.start-form{
+    position: relative;
+    top: 45%;
+}
+
+.start-p{
+    font-size: 20px;
+    text-align-last: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: relative;
+    top: 42%;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
