@@ -32,6 +32,17 @@ body {
     text-align: center;
     margin-top: 15vh;
     color: #f05537;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+
+
+.icerik-sag h4 {
+    text-align: center;
+    color: #111e30;
+    font-weight: 200;
+    opacity: 
 }
 
 
