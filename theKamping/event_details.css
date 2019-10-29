@@ -62,10 +62,22 @@ h1.kamp-baslik{
     float: left;
 }
 
+.kamp-paylas-div {
+    margin-top: 15px;
+}
 
+.kampi-paylas {
+    display: inline-block;
+    text-decoration: underline;
+    
+}
 
+#kampi-paylas-id {
+    color: #0098ab;
+    text-decoration: underline;
+}
 #btnn {
-    display: block;
+    display: inline-block;
     float: right;
     
 }
