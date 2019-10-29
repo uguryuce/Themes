@@ -5,10 +5,61 @@
     <link rel="stylesheet" href="event_details.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
     <title>Event Details</title>
 </head>
 
 <body>
+
+
+    <div class="container">
+        <ul id="gn-menu" class="gn-menu-main">
+            <li class="gn-trigger">
+                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                <nav class="gn-menu-wrapper">
+                    <div class="gn-scroller">
+                        <ul class="gn-menu">
+                            <li class="gn-search-item">
+                                <input placeholder="Search" type="search" class="gn-search">
+                                <a class="gn-icon gn-icon-search"><span>Search</span></a>
+                            </li>
+                            <li>
+                                <a class="gn-icon gn-icon-download">Downloads</a>
+                                <ul class="gn-submenu">
+                                    <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
+                                    <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="gn-icon gn-icon-cog">Settings</a></li>
+                            <li><a class="gn-icon gn-icon-help">Help</a></li>
+                            <li>
+                                <a class="gn-icon gn-icon-archive">Archives</a>
+                                <ul class="gn-submenu">
+                                    <li><a class="gn-icon gn-icon-article">Articles</a></li>
+                                    <li><a class="gn-icon gn-icon-pictures">Images</a></li>
+                                    <li><a class="gn-icon gn-icon-videos">Videos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /gn-scroller -->
+                </nav>
+            </li>
+            <li><a href="http://tympanus.net/codrops">Codrops</a></li>
+            <li><a class="codrops-icon codrops-icon-prev"><span>Previous Demo</span></a></li>
+            <li><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16030"><span>Back to the Codrops Article</span></a></li>
+        </ul>
+
+    </div><!-- /container -->
+
+    <script src="js/classie.js"></script>
+    <script src="js/gnmenu.js"></script>
+    <script>
+        new gnMenu(document.getElementById('gn-menu'));
+    </script>
 
 
     <div class="kamp-baslik-div clearfix">
@@ -60,79 +111,79 @@
             <h1 class="detaylar-h1">Detaylar</h1>
 
             <p class="detaylar-p lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam laudantium commodi, enim culpa assumenda odit eos cupiditate aliquid, laborum quasi? Quae aliquid consequatur consequuntur corporis, omnis, praesentium dicta neque.</p>
-            
+
             <p class="detaylar-p lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id delectus placeat voluptatum natus, dolores deserunt commodi ipsa consequatur ducimus nesciunt vitae, minus, nam accusantium totam assumenda sapiente deleniti iusto? Odio.</p>
 
         </div>
-        
+
         <div class="katilimcilar">
-           
-           <div class="portfolio-images clearfix">
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-3.png">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-               
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-4.jpeg">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-               
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-2.jpeg">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-               
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-3.png">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-               
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-5.jpeg">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-               
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-3.png">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-               
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-4.jpeg">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-               
-               <div class="cards-1">
-                   <div class="card-1">
-                       <img src="img-2/profile-3.png">
-                       <h4>Uğur Yüce</h4>
-                       <h5>Organizatör</h5>
-                   </div>
-               </div>
-           </div>
-            
+
+            <div class="portfolio-images clearfix">
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-3.png">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-4.jpeg">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-2.jpeg">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-3.png">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-5.jpeg">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-3.png">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-4.jpeg">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+
+                <div class="cards-1">
+                    <div class="card-1">
+                        <img src="img-2/profile-3.png">
+                        <h4>Uğur Yüce</h4>
+                        <h5>Organizatör</h5>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
