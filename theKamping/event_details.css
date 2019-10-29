@@ -1,0 +1,103 @@
+.kamp-baslik-div {
+    width: 100%;
+    display: block;
+    float: left;
+    height: auto;
+    background-color: #ffffff;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50px;
+}
+
+.kamp-baslik-div .tarih {
+    display: block;
+    width: 100%;
+    float: left;
+    color: #999999;
+    font-weight: 200;
+}
+
+
+
+h1.kamp-baslik{
+    
+    color: black;
+    font-weight: 900;
+} 
+
+
+.duzenleyen {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+
+.isim {
+    color: #d14157;
+}
+
+.profile {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+.image-name {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+
+
+#btnn {
+    display: block;
+    float: right;
+    
+}
+
+.gorsel-sol {
+    
+}
+
+.details-alt {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 250px;
+    background-color: #f9f9f9;
+    height: 1000px;
+    
+}
+
+
+.gorsel-sol {
+    display: block;
+    width: 60%;
+    float: left;
+    
+    height: 300px;
+}
+
+.gorsel-sol img {
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
