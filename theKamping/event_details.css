@@ -22,7 +22,7 @@
 }
 
 .btn-katil {
-    background-color: #38c172;
+    
     color: white;
     padding: 10px;
     padding-right: 20px;
@@ -79,6 +79,8 @@ h1.kamp-baslik{
 #btnn {
     display: inline-block;
     float: right;
+    background-color: #38c172;
+    color: white;
     
 }
 
@@ -123,10 +125,10 @@ h1.kamp-baslik{
 
 .tarih-detay-sag i {
     display: inline;
-    font-size: 25px;
-    color: #dd4c4f;
+    font-size: 15px;
+    color: #1071bb;
     padding: 10px;
-    opacity: 0.8;
+    
     
 }
 
