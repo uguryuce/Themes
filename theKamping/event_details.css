@@ -1,3 +1,11 @@
+
+
+
+body {
+    background-color: #f6f7f8;
+}
+
+
 .kamp-baslik-div {
     margin-top: 60px;
     width: 100%;
@@ -5,8 +13,7 @@
     float: left;
     height: auto;
     background-color: #ffffff;
-    padding-left: 15%;
-    padding-right: 15%;
+    
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid rgba(95,111,129,0.2);
@@ -89,12 +96,11 @@ h1.kamp-baslik{
 }
 
 .details-alt {
-    padding-left: 15%;
-    padding-right: 15%;
+    
     padding-top: 350px;
     background-color: #f6f7f8;
     height: auto;
-    
+    border-bottom: 1px solid #dcdcdc;
 }
 
 
@@ -190,23 +196,25 @@ a.detay-link {
 
 .katilimcilar {
     display: block;
-    height: 600px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
     background-color: #f6f7f8;
     width: 50%;
+    
 }
 
 
 .cards-1 {
     float: left;
     width: 25%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .card-1 {
-    height: 150px;
-    padding: 15px;
+    height: 170px;
+    padding: 10px;
     text-align: center;
-    border-radius: 5px;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
@@ -239,7 +247,10 @@ a.detay-link {
 }
 
 
-
+.other-kamp{
+    height: 100px;
+    background-color: #f6f7f8;
+}
 
 
 
