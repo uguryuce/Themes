@@ -841,7 +841,7 @@ footer .input-group-addon {
     margin-top: 50px;
     height: 50vh;
     background-image:
-        linear-gradient(to left bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url(../../img/ab3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
