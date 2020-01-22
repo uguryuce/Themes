@@ -47,7 +47,241 @@ body {
     --main-header-transition: all 0.35s ease;
 }
 
-/* MAIN HEADER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: rgb(155,80,235);
+background: linear-gradient(90deg, rgba(155,80,235,1) 0%, rgba(119,109,235,1) 51%, rgba(93,131,235,1) 100%);
+    object-fit: cover;
+    background-size: cover;
+    
+}
+
+
+.navbar {
+    background: black;
+    position: inherit;
+    transition: all 0.4s;
+    background: rgb(155,80,235);
+background: linear-gradient(90deg, rgba(155,80,235,1) 0%, rgba(119,109,235,1) 51%, rgba(93,131,235,1) 100%);
+    object-fit: cover;
+    background-size: cover;
+    
+}
+
+.navbar .nav-link {
+    color: #fff;
+    
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+
+
+#white-bg-nav {
+    background-color: white;
+    border-radius: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.2);
+    transition: .4s box-shadow;
+    margin-left: 20px;
+}
+
+
+#white-bg-nav:hover {
+    
+    box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.1);
+}
+
+#white-bg-nav a {
+    font-family: 'Lato', sans-serif;
+    color: #9643eb;
+}
+
+#ml-nav {
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+#logo-nav {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    opacity: 1;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -60px;
+    
+}
+
+.entry {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.entry-right {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.icon-right {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 18%;
+    padding-left: 0px;
+    
+}
+
+.icon-right img {
+    padding-left:25%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.big-title-div {
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    margin-top: 20%;
+    padding-left: 100px;
+}
+
+.big-title-h1 {
+    line-height: 1.0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: left;
+    font-size: 50px;
+    color: #fbff9c;
+    opacity: 1;
+    letter-spacing: 0.5px;
+}
+
+.big-title-h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    font-size: 17px;
+    color: #ffffff;
+    opacity: 1;
+    letter-spacing: 0.3px;
+}
+
+#info-p {
+    width: 86%;
+    letter-spacing: 1px;
+    color: #f1f1f1;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.entry .big-title-div button {
+    font-family: 'Lato', sans-serif;
+    width: 90px;
+    margin-right: 5px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-weight: 600;
+    transition: .4s background;
+    border-radius: 6px;
+}
+
+.entry .big-title-div button:hover {
+    width: 90px;
+    margin-right: 5px;
+    background-color: rgba(30, 50, 100, 0.8);
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+
+#png-title {
+    margin-left: 0px;
+    margin-top: 20px;
+    display: block;
+    width: 30%;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-header {
     position: fixed;
     width: 100%;
@@ -255,12 +489,12 @@ body {
     background-color: #fff;
     
     
-    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
 .giris-kamp-card:hover {
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 10px 8px 4px rgba(0, 0, 0, 0.2);
 }
 
 #resim{

@@ -353,62 +353,71 @@
 
     -->
 
-    <div style="position: inherit;" class="container">
-        <ul id="gn-menu" class="gn-menu-main">
-            <li class="gn-trigger">
-                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-                <nav class="gn-menu-wrapper">
-                    <div class="gn-scroller">
-                        <ul class="gn-menu">
-                            <li class="gn-search-item">
-                                <input placeholder="Search" type="search" class="gn-search">
-                                <a class="gn-icon gn-icon-search"><span>Search</span></a>
-                            </li>
-                            <li>
-                                <a class="gn-icon gn-icon-download">Downloads</a>
-                                <ul class="gn-submenu">
-                                    <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
-                                    <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="gn-icon gn-icon-cog">Settings</a></li>
-                            <li><a class="gn-icon gn-icon-help">Help</a></li>
-                            <li>
-                                <a class="gn-icon gn-icon-archive">Archives</a>
-                                <ul class="gn-submenu">
-                                    <li><a class="gn-icon gn-icon-article">Articles</a></li>
-                                    <li><a class="gn-icon gn-icon-pictures">Images</a></li>
-                                    <li><a class="gn-icon gn-icon-videos">Videos</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div><!-- /gn-scroller -->
-                </nav>
-            </li>
-            <li><a href="http://tympanus.net/codrops">Codrops</a></li>
-            <li><a class="codrops-icon codrops-icon-prev"><span>Previous Demo</span></a></li>
-            <li><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16030"><span>Back to the Codrops Article</span></a></li>
-        </ul>
+    <section class="header">
+        <nav class="navbar navbar-expand-lg py-4">
 
-    </div><!-- /container -->
+            <div class="container">
 
-    <script src="js/classie.js"></script>
-    <script src="js/gnmenu.js"></script>
-    <script>
-        new gnMenu(document.getElementById('gn-menu'));
-    </script>
+                <a id="logo-nav" href="#" class="navbar-brand text-uppercase">Activity</a>
+
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+
+                        
+                        <li id="ml-nav" class="nav-item active"><a href="#" class="nav-link text-uppercase ">Home <span class="sr-only">(current)</span></a></li>
+                        
+                        
+                        <li id="ml-nav" class="nav-item text-uppercase"><a href="#" class="nav-link ">About</a></li>
+                        
+                        <!--
+                        
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
+                        
+                        -->
 
 
+                        <li id="ml-nav" class="nav-item"><a href="#" class="nav-link text-uppercase">Portfolio</a></li>
 
-    <section style="height: 70vh;" class="start-kamp">
-        <h1 class="start-h1 text-center">Etkinlik Takip Sistemi</h1>
-        <p class="start-p text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ut.</p>
 
+                        <li id="white-bg-nav" class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="entry">
+            <div class="big-title-div">
+            
+            <h1 class="big-title-h1">Etkinlik</h1>
+            <h1 class="big-title-h1 mb-4">Takip Sistemi</h1>
+            <p id="info-p" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe alias, non velit accusamus hic excepturi quas.</p>
+            
+            
+            <h5 class="big-title-h5 mb-3 mt-5" >Lorem ipsum dolor sit amet.</h5> 
+            
+            <button class="btn">Button</button>
+            <button class="btn">Button</button>
+            <button class="btn">Button</button>
+            
+           
+            
+            </div>
+        </section>
         
+        
+        <section class="entry-right">
+            <div class="icon-right">
+                <img src="png/png-2.png">
+            </div>
+        </section>
+
 
 
     </section>
-
     <div class="en-popi-h1">
         <h1 class="popi-kamp clearfix"><span class="span-renk">en popüler</span> etkinlikler</h1>
     </div>
@@ -642,7 +651,7 @@
             </div>
         </div>
     </section>
-
+<!--
     <div class="en-popi-h1" style="background-color: #222222;">
         <h1 class="popi-kamp clearfix" style="background-color: #222222; color: white; font-weight: 200;">daha fazla</h1>
     </div>
@@ -661,32 +670,12 @@
                 <h3 class="card-baslik">Lorem ipsum.</h3>
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
 
-                <!-- yıldız puanlama
-               
-                <div id="yildiz">
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <span class="yildiz-genel">(4,3)</span>
-
-                </div>
-
-                 yıldız puanlama bitiş -->
-
-                <!--
+                
 
 
                 <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
-                -->
+                
 
             </div>
         </div>
@@ -700,31 +689,7 @@
                 <h3 class="card-tarih">Pazartesi, Ocak 10</h3>
                 <h3 class="card-baslik">Lorem ipsum dolor.</h3>
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
-                <!-- yıldız puanlama
-               
-                <div id="yildiz">
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <span class="yildiz-genel">(4,3)</span>
-
-                </div>
-
-                 yıldız puanlama bitiş -->
-
-                <!--
-
-                <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
-                -->
 
 
             </div>
@@ -739,31 +704,7 @@
                 <h3 class="card-tarih">Pazartesi, Ocak 10</h3>
                 <h3 class="card-baslik">Lorem ipsum.</h3>
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
-                <!-- yıldız puanlama
-               
-                <div id="yildiz">
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <span class="yildiz-genel">(4,3)</span>
-
-                </div>
-
-                 yıldız puanlama bitiş -->
-
-                <!--
-
-                <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
-                -->
 
 
             </div>
@@ -780,30 +721,7 @@
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
 
 
-                <!-- yıldız puanlama
                
-                <div id="yildiz">
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <span class="yildiz-genel">(4,3)</span>
-
-                </div>
-
-                 yıldız puanlama bitiş -->
-
-                <!--
-                <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
-                
-                -->
 
             </div>
         </div>
@@ -825,32 +743,7 @@
                 <h3 class="card-baslik">Lorem ipsum.</h3>
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
 
-                <!-- yıldız puanlama
                
-                <div id="yildiz">
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <span class="yildiz-genel">(4,3)</span>
-
-                </div>
-
-                 yıldız puanlama bitiş -->
-
-                <!--
-
-
-                <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
-                
-                -->
 
             </div>
         </div>
@@ -864,31 +757,7 @@
                 <h3 class="card-tarih">Pazartesi, Ocak 10</h3>
                 <h3 class="card-baslik">Lorem ipsum dolor.</h3>
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
-                <!-- yıldız puanlama
-               
-                <div id="yildiz">
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <span class="yildiz-genel">(4,3)</span>
-
-                </div>
-
-                 yıldız puanlama bitiş -->
-
-                <!--
-
-                <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
-                -->
 
 
             </div>
@@ -903,32 +772,7 @@
                 <h3 class="card-tarih">Pazartesi, Ocak 10</h3>
                 <h3 class="card-baslik">Lorem ipsum.</h3>
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
-                <!-- yıldız puanlama
-               
-                <div id="yildiz">
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <i class="fa fa-star"></i>
-
-                    <span class="yildiz-genel">(4,3)</span>
-
-                </div>
-
-                 yıldız puanlama bitiş -->
-
-                <!--
-
-                <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
-                -->
-
 
             </div>
         </div>
@@ -944,7 +788,7 @@
                 <h6 class="card-duzenleyen">Istanbul Kültür Merkezi Beşiktaş</h6>
 
 
-                <!-- yıldız puanlama
+              
                
                 <div id="yildiz">
 
@@ -962,16 +806,13 @@
 
                 </div>
 
-                 yıldız puanlama bitiş -->
-
-                <!--
-                <button type="button" id="btn-katil" class=" detay-btn btn  btn-sm"><a class="detay-btn-text">Katıl +</a></button>
                 
-                -->
 
             </div>
         </div>
     </section>
+    
+    -->
 
     <!-- Footer -->
     <footer class="pt-5 pb-4" id="contact">
