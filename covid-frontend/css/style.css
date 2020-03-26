@@ -1,0 +1,405 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.anasayfa-general {
+    display: block;
+    height: 831px;
+    width: 100%;
+}
+.anasayfa-card {
+    padding-top: 52px;
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 831px;
+
+}
+
+
+.anasayfa-card:before{
+    content: '';
+    width: 100%;
+    height: 417px;
+    position: absolute;
+    background-color: #3F02A7;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.anasayfa-card:after {
+    content: '';
+    width: 100%;
+    height: 417px;
+    position: absolute;
+    background-color: #F8F8F8;
+    top: 417px;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.container-1 {
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #DEDEE0;
+    border-radius: 23px;
+    width: 256px;
+    height: 46px;
+    text-align: center;
+}
+
+.container-1 > .dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-1 > #district {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown {
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 38px;
+    width: 129px;
+    top: 8.7%;
+    bottom: 8.7%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14434);
+    border-radius: 19px;
+}
+#district {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 38px;
+    width: 70px;
+    top: 8.7%;
+    bottom: 8.7%;
+    background: transparent;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+    border-radius: 19px;
+}
+
+#district:after {
+    top: 10px;
+    right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dropdown:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 18px;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #888888 transparent;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dropdown:after {
+    margin-top: 7px;
+    border-top-style: solid;
+    border-bottom: none;
+}
+
+.dropdown-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    margin: 0;
+    padding: 6px 8px 6px 10px;
+    height: 28px;
+    line-height: 14px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.2px;
+    text-shadow: 0 1px white;
+    background: #f2f2f2; /* Fallback for IE 8 */
+    background: rgba(0, 0, 0, 0) !important; /* "transparent" doesn't work with Opera */
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+
+}
+
+.dropdown-select:focus {
+    z-index: 3;
+    width: 100%;
+    color: #394349;
+    outline: 2px solid #49aff2;
+    outline: 2px solid -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.dropdown-select > option {
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Fix for IE 8 putting the arrows behind the select element. */
+
+.lt-ie9 .dropdown {
+    z-index: 1;
+}
+
+.lt-ie9 .dropdown-select {
+    z-index: -1;
+}
+
+.lt-ie9 .dropdown-select:focus {
+    z-index: 3;
+}
+
+/* Dirty fix for Firefox adding padding where it shouldn't. */
+
+@-moz-document url-prefix() {
+    .dropdown-select {
+        padding-left: 6px;
+    }
+}
+
+.dropdown-dark {
+    background: #444;
+    border-color: #111111 #0a0a0a black;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-dark:before {
+    border-bottom-color: #aaa;
+}
+
+.dropdown-dark:after {
+    border-top-color: #aaa;
+}
+
+.dropdown-dark .dropdown-select {
+    color: #aaa;
+    text-shadow: 0 1px black;
+    background: #444;  /* Fallback for IE 8 */
+}
+
+.dropdown-dark .dropdown-select:focus {
+    color: #ccc;
+}
+
+.dropdown-dark .dropdown-select > option {
+    background: #444;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+
+
+/*----------- Kartlar----------- */
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 26px;
+}
+
+.card {
+    margin: 10px;
+    position: relative;
+    width: calc(50% - 30px);
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #85e6fa;
+    background: #FFFFFF;
+    box-shadow: 0px 19px 25px rgba(230, 230, 230, 0.10);
+    border-radius: 14.3px;
+}
+
+.icon {
+    font-size: 80px;
+    width: 1em;
+    height: 1em;
+}
+
+.text-number {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.2px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.159547px;
+    color: #38415C;
+}
+
+.text-title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.2px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.122443px;
+
+    color: #38415C;
+}
+
+.text-thin {
+    font-family: sans-serif;
+    opacity: 0.7;
+    font-style: italic;
+    font-size: 13.2px;
+    line-height: 15px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0.122443px;
+
+    color: #38415C;
+}
+
+.check {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 23px;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+}
+.section-down {
+    height: 1400px;
+    background-color: #F8F8F8;
+    width: 100%;
+    display: block;
+}
+.number-section {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+p.number-section-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    color: #38415C;
+    margin-left: 14px;
+    margin-bottom: 9px;
+}
+
+.country-section {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+p.country-section-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.157692px;
+    color: #38415C;
+    margin-left: 14px;
+    margin-bottom: 9px;
+    margin-top: 21px;
+}
+
+/*---------------DOWN CARD DİV--------------- */
+
+.section-down-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 26px #E6E6E6;
+    border-radius: 14px;
+    height: 80px;
+    margin-bottom: 9px;
+
+}
+.card-info {
+     margin-left: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+.card-number {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.info-p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.148565px;
+    color: #393C50;
+}
+
+p.info2-p {
+    font-family: sans-serif;
+    opacity: 0.7;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.49192px;
+    color: #393C50;
+}
+
+p.number-left {
+    font-family: sans-serif;
+    font-size: 17x;
+    line-height: 22px;
+    letter-spacing: 0.635253px;
+    color: #393C50;
+}
