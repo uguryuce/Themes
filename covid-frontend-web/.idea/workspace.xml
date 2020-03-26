@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="356" />
+  </component>
   <component name="ProjectId" id="1ZfM6EAJrJfTVxwFlzTyTFNh6C3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,11 +27,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.anasayfa.html">
+  <component name="RunManager" selected="JavaScript Debug.settings.html">
     <configuration name="anasayfa.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/covid-frontend/pages/anasayfa.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/covid-frontend/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="settings.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/covid-frontend/pages/settings.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="splash.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/covid-frontend/pages/splash.html" useBuiltInWebServerPort="true">
@@ -36,6 +42,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.settings.html" />
         <item itemvalue="JavaScript Debug.anasayfa.html" />
         <item itemvalue="JavaScript Debug.splash.html" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -53,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585225517974</updated>
       <workItem from="1585225519228" duration="16697000" />
-      <workItem from="1585247630349" duration="3420000" />
+      <workItem from="1585247630349" duration="7989000" />
     </task>
     <servers />
   </component>
@@ -61,44 +68,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1585251840201">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1585264135113">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840201" />
-    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1585251840198">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135113" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1585264135111">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840198" />
-    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1585251840197">
+    <state width="1876" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135111" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1585264135110">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840197" />
-    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1585251840199">
+    <state width="1876" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135110" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1585264135112">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840199" />
-    <state width="1876" height="304" key="GridCell.Tab.1.bottom" timestamp="1585251840206">
+    <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135112" />
+    <state width="1876" height="304" key="GridCell.Tab.1.bottom" timestamp="1585264135116">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840206" />
-    <state width="1876" height="304" key="GridCell.Tab.1.center" timestamp="1585251840203">
+    <state width="1876" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135116" />
+    <state width="1876" height="304" key="GridCell.Tab.1.center" timestamp="1585264135114">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840203" />
-    <state width="1876" height="304" key="GridCell.Tab.1.left" timestamp="1585251840202">
+    <state width="1876" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135114" />
+    <state width="1876" height="304" key="GridCell.Tab.1.left" timestamp="1585264135114">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840202" />
-    <state width="1876" height="304" key="GridCell.Tab.1.right" timestamp="1585251840204">
+    <state width="1876" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135114" />
+    <state width="1876" height="304" key="GridCell.Tab.1.right" timestamp="1585264135115">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585251840204" />
+    <state width="1876" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585264135115" />
     <state x="1540" y="3" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585225562092">
       <screen x="1440" y="-97" width="1920" height="1080" />
     </state>
     <state x="1540" y="3" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900/1440.-97.1920.1080@1440.-97.1920.1080" timestamp="1585225562092" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/covid_frontend$anasayfa_html.dat" NAME="anasayfa.html Coverage Results" MODIFIED="1585247764753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/covid_frontend$anasayfa_html.dat" NAME="anasayfa.html Coverage Results" MODIFIED="1585258698185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
