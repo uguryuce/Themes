@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+select:focus{
+    outline: none;
+    -moz-outline-color: transparent;
+}
+
 .anasayfa-general {
     display: block;
     height: 831px;
@@ -53,10 +58,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
     background: #DEDEE0;
     border-radius: 23px;
-    width: 256px;
+    width: 276px;
     height: 46px;
     text-align: center;
 }
@@ -74,29 +78,34 @@
 
 .dropdown {
     margin-bottom: auto;
+    margin-right: 0px;
+    margin-left: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
     height: 38px;
-    width: 129px;
+    width: 60px;
     top: 8.7%;
     bottom: 8.7%;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14434);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.14434);
+    background-color: #FFFFFF;
+    padding-left: 37px;
+    padding-right: 37px;
     border-radius: 19px;
 }
 #district {
+    margin-bottom: auto;
+    margin-right: 5px;
     display: flex;
+    margin-left: -5px;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
     height: 38px;
-    width: 70px;
-    top: 8.7%;
-    bottom: 8.7%;
+    width: 60px;
     background: transparent;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
     border-radius: 19px;
@@ -104,7 +113,7 @@
 
 #district:after {
     top: 10px;
-    right: 2px;
+    right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +125,7 @@
     position: absolute;
     z-index: 2;
     top: 10px;
-    right: 18px;
+    right: 15px;
     width: 0;
     height: 0;
     border: 4px dashed;
@@ -139,20 +148,20 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
     margin: 0;
-    padding: 6px 8px 6px 10px;
+    padding-right:0px;
     height: 28px;
     line-height: 14px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 13.2px;
+    font-size: 13px;
     text-shadow: 0 1px white;
-    background: #f2f2f2; /* Fallback for IE 8 */
-    background: rgba(0, 0, 0, 0) !important; /* "transparent" doesn't work with Opera */
+    background: #f2f2f2;
+    background: rgba(0, 0, 0, 0) !important;
     border: 0;
     border-radius: 0;
+    z-index: 4;
     -webkit-appearance: none;
 
 }
@@ -161,9 +170,6 @@
     z-index: 3;
     width: 100%;
     color: #394349;
-    outline: 2px solid #49aff2;
-    outline: 2px solid -webkit-focus-ring-color;
-    outline-offset: -2px;
 }
 
 .dropdown-select > option {
@@ -175,7 +181,6 @@
     cursor: pointer;
 }
 
-/* Fix for IE 8 putting the arrows behind the select element. */
 
 .lt-ie9 .dropdown {
     z-index: 1;
@@ -232,7 +237,7 @@
 }
 
 
-/*----------- Kartlar----------- */
+/*----------- Cards----------- */
 
 
 .container {
@@ -311,7 +316,8 @@
     border-radius: 50%;
 }
 .section-down {
-    height: 1400px;
+    height: auto;
+    margin-bottom: 30px;
     background-color: #F8F8F8;
     width: 100%;
     display: block;
@@ -436,6 +442,7 @@ p.number-left {
     width: 100%;
     height: 65px;
     margin-bottom: 62px;
+    box-shadow: 1px 5px 15px rgba(0,0,0,0.02);
 }
 
 .settings-share-div a {
@@ -451,6 +458,8 @@ p.number-left {
 .settings-share-div img {
     margin-right: 15px;
 }
+
+
 
 .settings-social-media {
     display: flex;
@@ -491,7 +500,7 @@ p.number-left {
  }
 
 .settings-social-media-icon img {
-    margin: 8px;
+    margin: 10px;
     font-size: 26px;
     width: 1em;
     height: 1em;
@@ -549,15 +558,9 @@ p.number-left {
 
 
 
+/* R E S P O N S I V E   F O R   W E B (settings-page)*/
 
-/* R E S P O N S I V E   F O R   W E B */
-
-@media (min-width: 780px) {
-
-    .settings-general-sm {
-        margin: auto;
-        max-width: 800px;
-    }
+@media (min-width: 472px) {
     .settings-footer {
         justify-content: center;
     }
@@ -577,4 +580,62 @@ p.number-left {
     .settings-footer-left p {
         text-align: center;
     }
+    .settings-general-sm {
+        margin: auto;
+        max-width: 800px;
+    }
 }
+
+@media (min-width: 780px) {
+
+}
+
+
+/* R E S P O N S I V E   F O R   W E B (home-page)*/
+
+@media (min-width: 600px) {
+    .anasayfa-general {
+        width: 100%;
+    }
+
+    .container-1 {
+        margin-top: -20px;
+    }
+    .container {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .number-section {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .country-section {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
